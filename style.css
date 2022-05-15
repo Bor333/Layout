@@ -4,10 +4,32 @@
     outline: none;
 }
 
+@font-face {
+    font-family: Lato; /* Гарнитура шрифта */
+    src: url(fonts/lato/Lato-Bold.ttf); /* Путь к файлу со шрифтом */
+}
 .header {
-    height: 100px;
-    background-color: #ccc;
-    margin-bottom: 200px;
+
+}
+
+.header__content {
+    margin: 25px 0;
+}
+
+.bran {
+    font-family: Lato, sans-serif;
+    font-size: 27px;
+    line-height: 32px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.025em;
+    color: #222222;
+    margin-left: 13px;
+}
+
+.d {
+    font-weight: 900;
+    color: #f16d7f;
 }
 
 .item-flex {
