@@ -10,16 +10,96 @@
 </head>
 <body>
 <div class="header">
-    <div class="container">
-        <div class="header__content">
-            <img src="img/logo.png" alt="logo">
-            <span class="bran">BRAN<span class="d">D</span></span>
-            <div class="search"></div>
+    <div class="container header__content">
+        <div class="header__left">
+            <a href="#" class="logo">
+                <img src="img/logo.png" alt="logo"><span class="bran">BRAN<span class="d">D</span></span>
+            </a>
+            <form action="#" class="form">
+                <div class="form__browse">
+                    <div class="form__browse__content">
+                        <div class="form__browse__content__text">Browse</div>
+                        <div class="form__browse__content__triangle"><img src="img/triangle.png" alt="triangle"></div>
+                    </div>
+                </div>
+                <input class="input" type="text" placeholder="Search for Item...">
+                <button class="button button__search">
+                    <div class="magnifier"><img src="img/magnifier.png" alt=""></div>
+                </button>
+            </form>
+        </div>
+        <div class="header__right">
+            <img class="cart" src="img/cart.png" alt="cart">
+            <a href="" class="button button__my-account">
+                <div class="button__my-account__content">My Account
+                    <div class="button__my-account__triangle"><img src="img/triangle_white.png" alt="triangle"></div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+</div>
+
+<div class="container header__bottom">
+    <ul class="header__bottom__list">
+        <li class="header__bottom__list__item"><a href="#">Home</a></li>
+        <li class="header__bottom__list__item"><a href="#">Man</a></li>
+        <li class="header__bottom__list__item"><a href="#">Woman</a></li>
+        <li class="header__bottom__list__item"><a href="#">Kids</a></li>
+        <li class="header__bottom__list__item"><a href="#">Accoseriese</a></li>
+        <li class="header__bottom__list__item"><a href="#">Featured</a></li>
+        <li class="header__bottom__list__item"><a href="#">Hot deals</a></li>
+    </ul>
+</div>
+<div class="top-item">
+    <div class="container top-item__box" style="background-image: url(img/top_back.jpg);
+    background-repeat: no-repeat;
+    background-position: -200px 0;
+    height: 100%;">
+        <div class="top-item__content">
+            <div class="top-item__content__text">
+                <p class="top-item__content__text__the-brand">THE BRAND</p>
+                <p class="top-item__content__text__of-luxerious">OF LUXERIOUS
+                    <span class="top-item__content__text__the-fashion">FASHION</span>
+                </p>
+            </div>
         </div>
     </div>
 </div>
-<div class="container item-flex">
 
+<div class="container categories-item">
+    <div class="categories-item__column">
+        <div class="men">
+            <div class="item-card">
+                <div class="item-text">hOT dEAL
+                    <div class="category-text">FOR MEN</div>
+                </div>
+            </div>
+        </div>
+        <div class="accesories">
+            <div class="item-card">
+                <div class="item-text">LUXIROUS & trendy
+                    <div class="category-text">ACCESORIES</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="categories-item__column right-column">
+        <div class="women">
+            <div class="item-card">
+                <div class="item-text">30% offer
+                    <div class="category-text">women</div>
+                </div>
+            </div>
+        </div>
+        <div class="kids">
+            <div class="item-card">
+                <div class="item-text">new arrivals
+                    <div class="category-text">FOR kids</div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 
 <div class="footer">
