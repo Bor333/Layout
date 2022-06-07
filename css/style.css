@@ -538,8 +538,7 @@ a {
   background-color: #222224;
 }
 
-.for-women__heading {
-  margin-bottom: 11px;
+.icons__heading {
   font-family: "Lato", sans-serif;
   font-size: 20px;
   line-height: 1.2;
@@ -548,7 +547,11 @@ a {
   color: #fbfbfb;
 }
 
-.for-women__description {
+.icons__heading__for-women {
+  margin-bottom: 11px;
+}
+
+.icons__description {
   font-family: "Lato", sans-serif;
   font-size: 14px;
   line-height: 24px;
@@ -573,18 +576,27 @@ a {
 .lorry {
   width: 45px;
   height: 32px;
+}
+
+.lorry__margin {
   margin-right: 36px;
 }
 
 .percent {
   width: 40px;
   height: 40px;
+}
+
+.percent__margin {
   margin-right: 40px;
 }
 
 .crown {
   width: 47px;
   height: 35px;
+}
+
+.crown__margin {
   margin-right: 33px;
 }
 
@@ -805,6 +817,15 @@ a {
   margin-left: 8px;
 }
 
+.fa-angle-left {
+  position: absolute;
+  transform: rotate(-90deg);
+  right: 4px;
+  top: 4px;
+  font-size: 14px;
+  color: #bcbcbc;
+}
+
 .fa-facebook-f {
   background-color: #ffffff;
   color: #b2b2b2;
@@ -828,6 +849,39 @@ a {
 .fa-google-plus-g {
   color: #b2b2b2;
   background-color: #ffffff;
+}
+
+.new-arrivals-back {
+  background-color: #f8f3f4;
+  width: 100%;
+}
+
+.new-arrivals {
+  height: 148px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.arrivals-big {
+  font-family: "Lato", sans-serif;
+  font-size: 24px;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #f16d7f;
+}
+
+.arrivals-small {
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #636363;
+}
+
+.small-new-arrivals {
+  font-weight: 700;
+  color: #f16d7f;
 }
 
 /*# sourceMappingURL=style.css.map */
