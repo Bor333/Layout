@@ -102,6 +102,10 @@
   background-color: #f3f3f3;
 }
 
+.selector-relative {
+  position: relative;
+}
+
 .product-selector {
   height: 30px;
   background-color: #ffffff;
@@ -120,7 +124,13 @@
 .selector-right {
   width: 87px;
   position: relative;
-  padding: 11px;
+  padding-left: 11px;
+}
+
+.selector-text {
+  position: absolute;
+  left: 10px;
+  top: -1px;
 }
 
 .selector-right__small {
@@ -128,7 +138,8 @@
 }
 
 .fa-caret-down__sort {
-  right: -3px;
+  right: -6.5px;
+  top: 0;
 }
 
 .pagination-container {

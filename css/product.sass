@@ -1,6 +1,4 @@
-$color_regular: #6f6e6e
-$color_special: #f16d7f
-$text_font:'Lato', sans-serif
+@import "vars"
 
 .product-flex
   display: flex
@@ -8,7 +6,6 @@ $text_font:'Lato', sans-serif
 
 .product-right
   width: 100%
-
 
 .accordion
   width: 240px
@@ -89,6 +86,9 @@ $text_font:'Lato', sans-serif
   width: 100%
   background-color: #f3f3f3
 
+.selector-relative
+  position: relative
+
 .product-selector
   height: 30px
   background-color: #ffffff
@@ -105,13 +105,21 @@ $text_font:'Lato', sans-serif
 .selector-right
   width: 87px
   position: relative
-  padding: 11px
+  padding-left: 11px
+
+
+.selector-text
+  position: absolute
+  left: 10px
+  top: -1px
+
 
 .selector-right__small
   width: 64px
 
 .fa-caret-down__sort
-  right: -3px
+  right: -6.5px
+  top: 0
 
 
 .pagination-container
