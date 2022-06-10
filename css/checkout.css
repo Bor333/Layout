@@ -1,0 +1,156 @@
+.accordion-flush {
+  margin-top: 90px;
+}
+
+.accordion-button--checkout {
+  border: 0 !important;
+}
+
+.accordion-item {
+  width: 100%;
+  border-bottom: 1px solid #b3b2b2;
+}
+
+.register-heading--big {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  collapse: #222222;
+}
+
+.register-flex {
+  display: flex;
+}
+
+.register-info {
+  margin: 40px 290px 80px 35px;
+}
+
+.register-heading--small {
+  font-family: "Lato", sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #222222;
+}
+
+.register-text--weak {
+  margin-top: 15px;
+  font-family: "Lato", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  color: #b3b2b2;
+}
+
+.register__radio {
+  margin: 35px auto;
+}
+
+.register__label {
+  font-family: "Lato", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #222222;
+}
+
+.register__label-margin {
+  margin-left: 15px;
+}
+
+.radio__label {
+  display: block;
+  margin-top: 20px;
+}
+
+.arrow-labels {
+  margin-top: 33px;
+  margin-bottom: 38px;
+}
+
+.arrow-link {
+  display: block;
+  margin-top: 15px;
+}
+
+.fa-angle-double-right {
+  font-size: 13px;
+  color: #b3b2b2;
+  margin-right: 4px;
+}
+
+.register__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 180px;
+  height: 50px;
+  border: 1px solid #b3b2b2;
+  background-color: #ffffff;
+}
+
+.register__button-text {
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #222222;
+}
+
+.log-in-below-margin {
+  margin-bottom: 27px;
+}
+
+.red {
+  color: #ff0d0d;
+}
+
+.text-input__label {
+  display: block;
+}
+
+.register__input {
+  margin-top: 16px;
+  display: block;
+  width: 390px;
+  height: 45px;
+  border: 1px solid #eaeaea;
+}
+
+.red-text {
+  margin-top: 22px;
+  margin-bottom: 32px;
+  font-family: "Lato", sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  color: #ff0d0d;
+}
+
+.log-in-button-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.register__button-padding {
+  padding-right: 13px;
+  display: inline;
+}
+
+.forgot-pass {
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: #222222;
+}
+
+.link--weak:hover {
+  color: #b3b2b2;
+}
+
+.link--strong:hover {
+  color: #222222;
+}
+
+/*# sourceMappingURL=checkout.css.map */
