@@ -30,6 +30,10 @@
   color: #6f6e6e;
 }
 
+.product-text:hover {
+  color: #6f6e6e;
+}
+
 .product-text__open-sans {
   font-family: "Open Sans", sans-serif;
 }

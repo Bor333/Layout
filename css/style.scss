@@ -10,11 +10,17 @@
 
 .accordion-button {
   padding: 11px;
-  border-left: 5px solid $color_special !important;
-  border-bottom: 1px solid #ebebeb !important;
+  border-left: 5px solid $color_special;
+  border-bottom: 1px solid #ebebeb;
   height: 37px;
   position: relative;
 }
+
+.accordion-button:focus {
+  border-left: 5px solid $color_special;
+  border-bottom: 1px solid #ebebeb;
+}
+
 
 * {
   margin: 0;

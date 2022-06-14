@@ -28,6 +28,11 @@
   font-weight: 400;
   color: $color_regular;
 }
+
+.product-text:hover {
+  color: $color_regular;
+}
+
 .product-text__open-sans {
   font-family: 'Open Sans', sans-serif;
 }
