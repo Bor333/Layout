@@ -327,10 +327,8 @@
 
 <div class="cart__forms container">
     <div class="address">
-        <div class="datalist-relative">
-            <input  class="cart-input" id="country" list="dl_counties" placeholder="Bangladesh">
-            <i class="fa fa-caret-down fa-caret-down-cart" aria-hidden="true"></i>
-        </div>
+        <div class="heading--big">Shipping Address</div>
+        <input class="cart-input cart-input__arrow" id="country" list="dl_counties" placeholder="Bangladesh">
         <datalist id="dl_counties">
             <option value="Bangladesh"></option>
             <option value="Italy"></option>
@@ -339,10 +337,34 @@
             <option value="China"></option>
             <option value="Turkey"></option>
         </datalist>
+        <input class="cart-input" placeholder="State">
+        <input class="cart-input" placeholder="Postcode / Zip">
     </div>
-    <div class="coupon"></div>
-    <div class="proceed"></div>
+    <div class="coupon">
+        <div class="heading--big">coupon discount</div>
+        <div class="coupon__text">Enter your coupon code if you have one</div>
+        <input class="cart-input" placeholder="State">
+        <div class="cart-button--small">
+            <div class="text--small">Apply coupon</div>
+        </div>
+    </div>
+    <div class="proceed">
+        <div class="proceed-info">
+            <div class="sub-total">Sub total<span class="sub-total-space">$900</span></div>
+            <div class="heading--big">GRAND TOTAL <span class="grand-total-summ">$900</span></div>
+            <hr class="hr-weak">
+            <div class="proceed-button">
+                <div class="proceed-button__text">proceed to checkout</div>
+            </div>
+        </div>
+    </div>
 </div>
+<div class="container">
+    <div class="cart-button--small cart-end-margin">
+        <div class="text--small">get a quote</div>
+    </div>
+</div>
+
 
 <div class="feedback">
     <div class="feedback__cover">

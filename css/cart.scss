@@ -130,6 +130,13 @@
   width: 355px;
   height: 45px;
   border: 1px solid $color_weak;
+  margin-top: 20px;
+}
+
+.cart-input__arrow {
+  background-image: url("../img/fa-caret-down--weak.png");
+  background-repeat: no-repeat;
+  background-position: 350px;
 }
 
 
@@ -150,4 +157,104 @@
   right: 12px;
   top: 7px;
   color: $color_weak;
+}
+
+.address {
+  flex-direction: column;
+  display: flex;
+}
+
+.heading--big {
+  font-family: $text_font;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: $color_strong;
+}
+
+.coupon {
+  margin-left: 36px;
+}
+
+.coupon__text {
+  margin-top: 28px;
+  font-family: $text_font;
+  font-size: 14px;
+  font-weight: 300;
+  color: $color_strong;
+}
+
+.cart-button--small {
+  margin-top: 25px;
+  width: 118px;
+  height: 35px;
+  border: 1px solid $color_weak;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text--small {
+  font-family: $text_font;
+  font-size: 11px;
+  font-weight: 700;
+  color: $color_regular;
+}
+
+.proceed {
+  background-color: $color_weak;
+  margin-left: 36px;
+}
+
+.proceed-info {
+  display: flex;
+  flex-direction: column;
+  margin: 40px;
+  align-items: flex-end;
+}
+
+.sub-total {
+  margin-bottom: 13px;
+  font-family: $text-font;
+  font-size: 11px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: $color_regular;
+}
+
+.sub-total-space {
+  margin-left: 20px;
+}
+
+.grand-total-summ {
+  color: $color-special;
+  margin-left: 20px;
+}
+
+.hr-weak {
+  margin-top: 22px;
+  margin-bottom: 17px;
+  color: $color-regular;
+  width: 100%;
+}
+
+.proceed-button {
+  width: 273px;
+  height: 50px;
+  background-color: $color-special;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.proceed-button__text {
+  font-family: $text-font;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.cart-end-margin {
+  margin-bottom: 80px;
 }
