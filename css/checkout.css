@@ -3,7 +3,11 @@
 }
 
 .accordion-button--checkout {
-  border: 0 !important;
+  border: 0;
+}
+
+.accordion-button--checkout:focus {
+  border: 0;
 }
 
 .accordion-item {
