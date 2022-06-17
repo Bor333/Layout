@@ -12,10 +12,36 @@
 }
 
 .single-img-box {
+  position: relative;
   padding-top: 10px;
   height: 777px;
   background-color: #f7f7f7;
   border: 1px solid #eaeaea;
+}
+
+.single-arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 365px;
+  width: 47px;
+  height: 47px;
+  background-color: rgba(42, 42, 42, 0.14);
+}
+
+.single-arrow-right {
+  right: 0;
+}
+
+.fa-angle-left {
+  font-size: 24px;
+  color: #ffffff;
+}
+
+.fa-angle-right {
+  font-size: 24px;
+  color: #ffffff;
 }
 
 .single-img-center {

@@ -1,5 +1,21 @@
 @import "vars";
 
+.fa {
+  font-size: 16px;
+  text-align: center;
+  width: 32px;
+  padding: 8px 0;
+  margin-left: 8px;
+}
+.fa-angle-left {
+  position: absolute;
+  transform: rotate(-90deg);
+  right: 4px;
+  top: 4px;
+  font-size: 14px;
+  color: #bcbcbc;
+}
+
 .product-flex {
   display: flex;
   margin-top: 70px;
