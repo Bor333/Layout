@@ -31,25 +31,25 @@
                 </div>
                 <input class="input" type="text" placeholder="Search for Item...">
                 <div class="button button__search">
-                    <div class="magnifier"><img src="img/magnifier.png" alt="icon"></div>
+                    <i class="fa fa-search" aria-hidden="true"></i>
                 </div>
             </form>
         </div>
         <div class="header__right">
-            <img class="cart" src="img/cart.png" alt="cart">
-            <a href="" class="button button__my-account">
-                <div class="button__my-account__content">My Account
-                    <div class="button__my-account__triangle"><img src="img/triangle_white.png" alt="triangle"></div>
+            <a class="cart-link" href="/cart.html"><img class="cart" src="img/cart.png" alt="cart"></a>
+            <a href="/checkout.html" class="button button__my-account">
+                <div class="button__my-account__text">My Account
                 </div>
+                <i class="fa fa-caret-down button__my-account__triangle" aria-hidden="true"></i>
             </a>
         </div>
     </div>
 </header>
-<nav class="navigation-top">
-    <div class="container">
+<div class="container">
+    <nav class="navigation-top">
         <ul class="menu">
-            <li class="menu-list"><a href="/">Home</a></li>
-            <li class="menu-list"><a href="/single_page.html">Man</a>
+            <li class="menu-list"><a href="#">Home</a></li>
+            <li class="menu-list"><a href="/product.html">Man</a>
                 <div class="mega-box">
                     <div class="mega-item">
                         <h3 class="mega-heading">man</h3>
@@ -227,8 +227,9 @@
                 </div>
             </li>
         </ul>
-    </div>
-</nav>
+    </nav>
+</div>
+
 <div class="new-arrivals-back">
     <div class="container new-arrivals">
         <span class="arrivals-big">New Arrivals</span>
@@ -267,11 +268,14 @@
                             <a href="#"><i class="fas fa-angle-double-right "></i><span class="register-text--weak">Fast and easy
                                 checkout</span>
                             </a>
-                            <a href="#" class="arrow-link"><i class="fas fa-angle-double-right"></i><span class="register-text--weak">Easy access to
+                            <a href="#" class="arrow-link"><i class="fas fa-angle-double-right"></i><span
+                                    class="register-text--weak">Easy access to
                                 your order history and status</span>
                             </a>
                         </div>
-                        <div class="register__button"><div class="register__button-text">Continue</div></div>
+                        <div class="register__button">
+                            <div class="register__button-text">Continue</div>
+                        </div>
                     </div>
                     <form class="registration-form">
                         <h4 class="register-heading--small">Already registed?</h4>
@@ -286,7 +290,8 @@
                         </label>
                         <div class="red-text red">* Required Fileds</div>
                         <div class="log-in-button-flex">
-                            <input class="register__button register__button-text register__button-padding" type="submit" value="Log in">
+                            <input class="register__button register__button-text register__button-padding" type="submit"
+                                   value="Log in">
                             <a href="#" class="forgot-pass link--strong">Forgot Password</a>
                         </div>
                     </form>
@@ -391,12 +396,12 @@
             <div class="subscribe__text">
                 Subscribe <p class="for-our-newletter">FOR OUR NEWLETTER AND PROMOTION</p>
             </div>
-            <div class="subscribe__form">
+            <form class="subscribe__form">
                 <input class="subscribe__input" type="email" placeholder="Enter Your Email">
                 <div class="subscribe__button">
                     <div class="subscribe__word">Subscribe</div>
                 </div>
-            </div>
+            </form>
         </div>
     </div>
 </div>
