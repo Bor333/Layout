@@ -1,7 +1,8 @@
+@import "vars";
+
 .accordion {
   width: 240px;
 }
-
 .accordion-item {
   width: 240px;
   margin-bottom: 18px;
@@ -9,23 +10,23 @@
 
 .accordion-button {
   padding: 11px;
-  border-left: 5px solid #f16d7f;
+  border-left: 5px solid $color_special;
   border-bottom: 1px solid #ebebeb;
   height: 37px;
   position: relative;
 }
 
 .accordion-button:focus {
-  border-left: 5px solid #f16d7f;
+  border-left: 5px solid $color_special;
   border-bottom: 1px solid #ebebeb;
 }
+
 
 * {
   margin: 0;
   padding: 0;
   outline: none;
 }
-
 a {
   text-decoration: none;
   color: #222222;
@@ -43,6 +44,7 @@ a {
   background-color: #ccc;
 }
 
+
 .button__my-account {
   background-color: #f16d7f;
   margin-left: 26px;
@@ -57,7 +59,7 @@ a {
   height: 100px;
   background-color: #ffffff;
   border: 1px solid #ececec;
-  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.17);
+  box-shadow: 0 0 10px 0 rgba(0,0,0,0.17);
 }
 
 .header__content {
@@ -73,7 +75,7 @@ a {
 }
 
 .bran {
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   font-size: 27px;
   line-height: 32px;
   font-weight: 300;
@@ -97,6 +99,7 @@ a {
   display: flex;
 }
 
+
 .logo {
   display: flex;
   align-items: center;
@@ -114,7 +117,7 @@ a {
   align-items: center;
   justify-content: center;
   background-color: #cdcdcc;
-  background-image: linear-gradient(180deg, #f9f9f9 0%, #f5f5f5 100%);
+  background-image: linear-gradient(180.0deg, #f9f9f9 0%, #f5f5f5 100%);
   border: 1px solid #e6e6e6;
   border-radius: 3px 0 0 3px;
   box-sizing: border-box;
@@ -124,7 +127,7 @@ a {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 15px;
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   font-size: 14px;
   line-height: 32px;
   font-weight: 300;
@@ -158,7 +161,7 @@ a {
   border: 1px solid #e6e6e6;
   border-radius: 0 3px 3px 0;
   background-color: #ffffff;
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   font-size: 15px;
   line-height: 32px;
   font-weight: 400;
@@ -178,7 +181,7 @@ a {
 
 .button__my-account {
   margin-left: 26px;
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   font-size: 15px;
   font-weight: 400;
   letter-spacing: 0.025em;
@@ -192,12 +195,14 @@ a {
   padding: 11px 11px 11px 19px;
 }
 
+
 .button__my-account__triangle {
   margin-left: 8px;
 }
 
+
 .navigation-top {
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   font-size: 14px;
   line-height: 26px;
   font-weight: 700;
@@ -232,7 +237,7 @@ a {
 .top-item__content {
   padding-top: 224px;
   display: flex;
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   line-height: 1.2;
   font-weight: 900;
   letter-spacing: 0.025em;
@@ -265,7 +270,6 @@ a {
   justify-content: center;
   margin-top: 100px;
 }
-
 .categories-item__column {
   width: 100%;
 }
@@ -302,7 +306,7 @@ a {
 
 .item-heading {
   margin: 100px auto 0;
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   font-size: 30px;
   font-weight: 700;
   letter-spacing: 0.025em;
@@ -313,12 +317,13 @@ a {
 .desc {
   width: 350px;
   margin: 5px auto 60px;
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   font-size: 14px;
   font-weight: 400;
   letter-spacing: 0.025em;
   color: #9f9f9f;
 }
+
 
 .item-sec {
   margin-bottom: 200px;
@@ -334,16 +339,16 @@ a {
 }
 
 .item-desc {
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   font-size: 13px;
   font-weight: 600;
   text-transform: uppercase;
-  color: #6f6e6e;
+  color: $color_regular;
 }
 
 .item-price {
   margin-top: 17px;
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   font-size: 16px;
   font-weight: 700;
   text-transform: uppercase;
@@ -359,15 +364,12 @@ a {
   box-shadow: 0 5px 8px rgba(0, 0, 0, 0.16);
   width: 263px;
 }
-
 .item-relative {
   position: relative;
 }
-
 .item-pic {
   width: 100%;
 }
-
 .item-filter {
   position: absolute;
   top: 0;
@@ -375,10 +377,12 @@ a {
   height: 100%;
   z-index: 2;
 }
+$card-filter: rgba(58,56,56,0.83);
 
 .item-box:hover .item-filter {
-  background-color: rgba(58, 56, 56, 0.83);
+  background-color: $card-filter;
 }
+
 
 .add {
   display: flex;
@@ -400,7 +404,7 @@ a {
 
 .add-desc {
   margin-left: 8px;
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   font-size: 13px;
   font-weight: 700;
   color: #ffffff;
@@ -429,7 +433,7 @@ a {
   display: inline-block;
   padding: 16px 18px;
   background-color: #fff;
-  font-family: Lato, sans-serif;
+  font-family: Lato,sans-serif;
   font-size: 18px;
   line-height: 1.2;
   font-weight: 900;
@@ -454,7 +458,7 @@ a {
 }
 
 .mega-heading {
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   font-size: 14px;
   font-weight: 400;
   text-transform: uppercase;
@@ -467,7 +471,7 @@ a {
 
 .mega-link {
   display: block;
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   font-size: 14px;
   font-weight: 400;
   color: #646464;
@@ -515,6 +519,7 @@ a {
   left: auto;
 }
 
+
 .banner-for-women {
   margin-top: 113px;
   margin-bottom: 100px;
@@ -542,7 +547,7 @@ a {
 .for-women__info {
   padding-left: 40px;
   padding-top: 146px;
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   font-size: 53.7px;
   line-height: 1.2;
   font-weight: 700;
@@ -562,27 +567,28 @@ a {
   background-color: #222224;
 }
 
+
+
 .icons__heading {
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   font-size: 20px;
   line-height: 1.2;
   font-weight: 700;
   letter-spacing: 0.025em;
   color: #fbfbfb;
 }
-
 .icons__heading__for-women {
   margin-bottom: 11px;
 }
-
 .icons__description {
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   font-size: 14px;
   line-height: 24px;
   font-weight: 300;
   letter-spacing: 0.025em;
   color: #fbfbfb;
 }
+
 
 .for-women__block {
   display: flex;
@@ -601,16 +607,13 @@ a {
   width: 45px;
   height: 32px;
 }
-
 .lorry__margin {
   margin-right: 36px;
 }
-
 .percent {
   width: 40px;
   height: 40px;
 }
-
 .percent__margin {
   margin-right: 40px;
 }
@@ -623,7 +626,6 @@ a {
 .crown__margin {
   margin-right: 33px;
 }
-
 .feedback {
   width: 100%;
   height: 438px;
@@ -663,7 +665,7 @@ a {
 
 .feedback__text {
   width: 420px;
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   font-size: 16px;
   line-height: 26px;
   font-weight: 400;
@@ -674,7 +676,7 @@ a {
 
 .feedback__name {
   margin-top: 20px;
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   font-size: 16px;
   line-height: 26px;
   font-weight: 700;
@@ -692,7 +694,7 @@ a {
 .subscribe__text {
   margin-top: 150px;
   margin-left: 150px;
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   font-size: 24px;
   font-weight: 400;
   text-transform: uppercase;
@@ -720,6 +722,7 @@ a {
   border: none;
   padding: 0 30px;
 }
+
 
 .subscribe__button {
   width: 104px;
@@ -761,10 +764,11 @@ a {
   margin-right: 80px;
 }
 
+
 .about__text {
   width: 430px;
   height: 180px;
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   font-size: 14px;
   line-height: 24px;
   font-weight: 300;
@@ -778,7 +782,7 @@ a {
 }
 
 .about__heading {
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   font-size: 18px;
   line-height: 26px;
   font-weight: 700;
@@ -789,13 +793,14 @@ a {
 
 .about__link {
   display: block;
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   font-size: 16px;
   font-weight: 400;
   letter-spacing: 0.025em;
   color: #898989;
   margin-bottom: 30px;
 }
+
 
 .footer {
   height: 80px;
@@ -810,7 +815,7 @@ a {
 }
 
 .copyright {
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   font-size: 16px;
   line-height: 42px;
   font-weight: 400;
@@ -821,7 +826,6 @@ a {
 .footer__link-box {
   display: flex;
 }
-
 .bottom__link {
   height: 32px;
   width: 32px;
@@ -861,7 +865,6 @@ a {
   background-color: #f8f3f4;
   width: 100%;
 }
-
 .new-arrivals {
   height: 148px;
   align-items: center;
@@ -870,7 +873,7 @@ a {
 }
 
 .arrivals-big {
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   font-size: 24px;
   font-weight: 900;
   text-transform: uppercase;
@@ -878,7 +881,7 @@ a {
 }
 
 .arrivals-small {
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   font-size: 14px;
   font-weight: 300;
   text-transform: uppercase;
@@ -889,5 +892,3 @@ a {
   font-weight: 700;
   color: #f16d7f;
 }
-
-/*# sourceMappingURL=style.css.map */

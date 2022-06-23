@@ -1,0 +1,206 @@
+@import "vars";
+
+.fa {
+  font-size: 16px;
+  text-align: center;
+  width: 32px;
+  padding: 8px 0;
+  margin-left: 8px;
+}
+.fa-angle-left {
+  position: absolute;
+  transform: rotate(-90deg);
+  right: 4px;
+  top: 4px;
+  font-size: 14px;
+  color: #bcbcbc;
+}
+
+.product-flex {
+  display: flex;
+  margin-top: 70px;
+}
+.product-right {
+  width: 100%;
+}
+
+.fa-caret-down {
+  color: $color_regular;
+  font-size: 14px;
+  position: absolute;
+  right: 0;
+}
+.product-heading {
+  font-family: $text_font;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: $color_regular;
+}
+.product-text {
+  font-family: $text_font;
+  font-size: 14px;
+  line-height: 33px;
+  font-weight: 400;
+  color: $color_regular;
+}
+
+.product-text:hover {
+  color: $color_regular;
+}
+
+.product-text__open-sans {
+  font-family: 'Open Sans', sans-serif;
+}
+.accordion-button:active .product-heading-special {
+  color: $color_special;
+}
+.accordion-button:active .fa-caret-down {
+  color: $color_special;
+  transform: rotate(180deg);
+}
+.accordion-body {
+  padding: 22px 0 41px 18px;
+}
+.product-right {
+  margin-left: 50px;
+}
+.product-right-top {
+  display: flex;
+}
+.product-trending {
+  width: 180px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.product-checkbox-flex {
+  width: 258px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.product-checkbox {
+  margin-right: 23px;
+}
+.product-checkbox-margin {
+  margin-right: 9px;
+}
+.product-sort {
+  margin-top: 42px;
+  margin-bottom: 48px;
+  display: flex;
+  align-items: center;
+  height: 50px;
+  width: 100%;
+  background-color: #f3f3f3;
+}
+.selector-relative {
+  position: relative;
+}
+.product-selector {
+  height: 30px;
+  background-color: #ffffff;
+  border: 1px solid #ebebeb;
+  display: flex;
+  align-items: center;
+}
+.selector-left {
+  padding: 10px;
+  margin-left: 9px;
+  justify-content: center;
+  border-right: none;
+}
+.selector-right {
+  width: 87px;
+  position: relative;
+  padding-left: 11px;
+  display: block;
+  appearance: none;
+  line-height: 1.3;
+  margin: 0;
+  background-image: url('../img/caret-down-solid.png');
+  background-repeat: no-repeat, repeat;
+  background-position: right .7em top 50%, 0 0;
+  background-size: .65em auto, 100%;
+}
+
+.selector-text {
+  position: absolute;
+  left: 10px;
+  top: -1px;
+}
+
+.selector-right__small {
+  width: 64px;
+}
+.fa-caret-down__sort {
+  right: -6.5px;
+  top: 0;
+}
+
+.pagination-container {
+  display: flex;
+  justify-content: space-between;
+}
+.pagination-box {
+  position: relative;
+  width: 261px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  border: 1px solid #ebebeb;
+  border-radius: 3px;
+}
+
+.digit {
+  font-size: 16px;
+  margin-left: 14px;
+}
+.digit:first-of-type {
+  margin-left: 0;
+}
+
+.fa-angle-left__pagination {
+  position: absolute;
+  left: -1px;
+  top: 6px;
+  font-size: 16px;
+  transform: none;
+}
+.fa-angle-right__pagination {
+  right: 4px;
+  top: 5px;
+  font-size: 16px;
+  transform: rotate(180deg);
+}
+.product-bottom {
+  margin-top: 110px;
+  width: 100%;
+  height: 341px;
+  background-color: #222224;
+}
+.icons__heading-product {
+  text-align: center;
+}
+.product-bottom__flex {
+  display: flex;
+  justify-content: space-between;
+}
+.product-bottom__block {
+  margin-top: 89px;
+  margin-bottom: 114px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 320px;
+}
+.lorry__margin-product {
+  margin-bottom: 32px;
+}
+.percent__margin-product {
+  margin-bottom: 23px;
+}
+.crown__margin-product {
+  margin-bottom: 29px;
+}

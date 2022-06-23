@@ -1,0 +1,258 @@
+.details__head {
+  margin-top: 90px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #b3b2b2;
+  display: flex;
+  justify-content: space-between;
+}
+
+.details__flex-right {
+  display: flex;
+  justify-content: space-between;
+  width: 55%;
+}
+
+.heading--small-strong {
+  font-family: "Lato", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #222222;
+}
+
+.cart-heading--small {
+  margin-top: 13px;
+  margin-bottom: 38px;
+  font-family: "Lato", sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #222222;
+}
+
+.card__text {
+  font-size: 13px;
+  font-weight: 400;
+  color: #6f6e6e;
+}
+
+.card__text-margin {
+  margin-top: 11px;
+}
+
+.card-text--weak {
+  font-weight: 300;
+  color: #b3b2b2;
+}
+
+.details__card {
+  margin-top: 22px;
+  padding-bottom: 22px;
+  border-bottom: 1px solid #b3b2b2;
+  display: flex;
+}
+
+.details-flex {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.numbers__flex-right {
+  display: flex;
+  justify-content: space-between;
+  width: 59%;
+  align-items: center;
+}
+
+.card__img {
+  margin-right: 21px;
+  width: 100px;
+  height: 115px;
+}
+
+.details__flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.numbers__input {
+  padding: 0 22px;
+  box-sizing: border-box;
+  width: 54px;
+  height: 30px;
+  border: 1px solid #b3b2b2;
+}
+
+.fa-times-circle {
+  color: #6f6e6e;
+  margin-right: 1%;
+}
+
+.details__button-box {
+  margin-top: 44px;
+  margin-bottom: 63px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.details__button {
+  width: 235px;
+  height: 50px;
+  border: 1px solid #b3b2b2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.details__button-text {
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #6f6e6e;
+}
+
+.cart__forms {
+  display: flex;
+}
+
+.cart-input {
+  font-family: "Lato", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  color: #222222;
+  padding-left: 18px;
+  width: 355px;
+  height: 45px;
+  border: 1px solid #b3b2b2;
+  margin-top: 20px;
+}
+
+.cart-input__arrow {
+  background-image: url("../img/fa-caret-down--weak.png");
+  background-repeat: no-repeat;
+  background-position: 350px;
+}
+
+.cart-input::placeholder {
+  color: #b3b2b2;
+}
+
+.cart-input::-webkit-calendar-picker-indicator {
+  opacity: 0;
+}
+
+.datalist-relative {
+  position: relative;
+}
+
+.fa-caret-down-cart {
+  position: absolute;
+  right: 12px;
+  top: 7px;
+  color: #b3b2b2;
+}
+
+.address {
+  flex-direction: column;
+  display: flex;
+}
+
+.heading--big {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #222222;
+}
+
+.coupon {
+  margin-left: 36px;
+}
+
+.coupon__text {
+  margin-top: 28px;
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  color: #222222;
+}
+
+.cart-button--small {
+  margin-top: 25px;
+  width: 118px;
+  height: 35px;
+  border: 1px solid #b3b2b2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text--small {
+  font-family: "Lato", sans-serif;
+  font-size: 11px;
+  font-weight: 700;
+  color: #6f6e6e;
+  text-transform: uppercase;
+}
+
+.proceed {
+  background-color: #b3b2b2;
+  margin-left: 36px;
+}
+
+.proceed-info {
+  display: flex;
+  flex-direction: column;
+  margin: 40px;
+  align-items: flex-end;
+}
+
+.sub-total {
+  margin-bottom: 13px;
+  font-family: "Lato", sans-serif;
+  font-size: 11px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #6f6e6e;
+}
+
+.sub-total-space {
+  margin-left: 20px;
+}
+
+.grand-total-summ {
+  color: #f16d7f;
+  margin-left: 20px;
+}
+
+.hr-weak {
+  margin-top: 22px;
+  margin-bottom: 17px;
+  color: #6f6e6e;
+  width: 100%;
+}
+
+.proceed-button {
+  width: 273px;
+  height: 50px;
+  background-color: #f16d7f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.proceed-button__text {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.cart-end-margin {
+  margin-bottom: 80px;
+}
+
+/*# sourceMappingURL=cart.css.map */

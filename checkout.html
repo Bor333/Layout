@@ -10,8 +10,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital@0;1&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/d33d67a3bc.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/single-page.css">
+    <link rel="stylesheet" href="css/checkout.css">
 </head>
 <body>
 <header class="header">
@@ -234,107 +236,140 @@
     </div>
 </div>
 
-
-<div class="single-img-box">
-    <div class="single-arrow single-arrow-left">
-        <i class="fa fa-angle-left"></i>
-    </div>
-    <div class="single-arrow single-arrow-right">
-        <i class="fa fa-angle-right"></i>
-    </div>
-    <div class="single-img-center">
-        <img class="single-img" src="img/single-img.jpg" alt="img">
-    </div>
-</div>
-<div class="container single-add-to-cart">
-    <h4 class="single-heading-small">WOMEN COLLECTION</h4>
-    <div class="rose-line-box">
-        <div class="rose-line"></div>
-        <hr class="single-hr">
-    </div>
-    <h3 class="single-heading-middle">Moschino Cheap And Chic</h3>
-    <p class="single-p">Compellingly actualize fully researched processes before proactive outsourcing.
-        Progressively syndicate collaborative architectures before cutting-edge services. Completely visualize
-        parallel core competencies rather than exceptional portals.</p>
-    <div class="single-sub-box">
-                <span class="single-sub">MATERIAL:
-                    <span class="single-sub-diff">COTTON</span>
-                </span>
-        <span class="single-sub">DESIGNER:
-                    <span class="single-sub-diff">BINBURHAN</span>
-                </span>
-    </div>
-    <div class="single-price">$561</div>
-    <hr class="single-hr-big">
-    <div class="single-add-box">
-        <div class="property-box">
-            <div class="property">
-                <div class="property-title">CHOOSE COLOR</div>
-                <div class="property-relative">
-                    <div class="color"></div>
-                    <input class="property-choice property-choice-first" placeholder="Red">
-                    <i class="fa fa-angle-left" aria-hidden="true"></i>
+<div class="accordion-flush container" id="accordionCheckout">
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button accordion-button--checkout" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                <h3 class="register-heading--big">01. Shipping Address</h3>
+            </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+             data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+                <div class="register-flex">
+                    <div class="register-info">
+                        <h4 class="register-heading--small">Check as a guest or register</h4>
+                        <div class="register-text--weak">Register with us for future convenience</div>
+                        <form class="register__radio">
+                            <label>
+                                <input type="radio" name="register" checked><span
+                                    class="register__label register__label-margin">checkout as guest</span>
+                            </label>
+                            <label class="radio__label">
+                                <input type="radio" name="register"><span
+                                    class="register__label register__label-margin">register</span>
+                            </label>
+                        </form>
+                        <h4 class="register-heading--small">register and save time!</h4>
+                        <a href="#" class="register-text--weak link--weak">Register with us for future convenience</a>
+                        <div class="arrow-labels">
+                            <a href="#"><i class="fas fa-angle-double-right "></i><span class="register-text--weak">Fast and easy
+                                checkout</span>
+                            </a>
+                            <a href="#" class="arrow-link"><i class="fas fa-angle-double-right"></i><span class="register-text--weak">Easy access to
+                                your order history and status</span>
+                            </a>
+                        </div>
+                        <div class="register__button"><div class="register__button-text">Continue</div></div>
+                    </div>
+                    <form class="registration-form">
+                        <h4 class="register-heading--small">Already registed?</h4>
+                        <div class="register-text--weak log-in-below-margin">Please log in below</div>
+                        <label>
+                            <span class="register__label">EMAIL ADDRESS <span class="red">*</span></span>
+                            <input class="register__input" type="text" required>
+                        </label>
+                        <label class="text-input__label">
+                            <div class="register__label">PASSWORD<span class="red"> *</span></div>
+                            <input class="register__input" type="text" required>
+                        </label>
+                        <div class="red-text red">* Required Fileds</div>
+                        <div class="log-in-button-flex">
+                            <input class="register__button register__button-text register__button-padding" type="submit" value="Log in">
+                            <a href="#" class="forgot-pass link--strong">Forgot Password</a>
+                        </div>
+                    </form>
                 </div>
             </div>
-            <div class="property">
-                <div class="property-title">CHOOSE SIZE</div>
-                <div class="property-relative">
-                    <input class="property-choice" placeholder="XXL">
-                    <i class="fa fa-angle-left" aria-hidden="true"></i>
-                </div>
-            </div>
-            <div class="property">
-                <div class="property-title">QUANTITY</div>
-                <div class="property-relative">
-                    <input class="property-choice" placeholder="2">
-                    <i class="fa fa-angle-left" aria-hidden="true"></i>
-                </div>
-            </div>
         </div>
-        <div class="single-button">
-            <div class="single-button-content">
-                <img src="img/single-cart.png"><span
-                    class="single-add-text">Add to Cart</span>
+    </div>
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button accordion-button--checkout" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                <span class="register-heading--big">02. BILLING INFORMATION</span>
+            </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+             data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+                BILLING INFORMATION
             </div>
         </div>
     </div>
-</div>
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button accordion-button--checkout" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                <span class="register-heading--big">03. SHIPPING INFORMATION</span>
+            </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+             data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+                SHIPPING INFORMATION
+            </div>
+        </div>
+    </div>
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="headingFour">
+            <button class="accordion-button accordion-button--checkout" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                <span class="register-heading--big">04. SHIPPING METHOD</span>
+            </button>
+        </h2>
+        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingThree"
+             data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+                SHIPPING METHOD
+            </div>
+
+        </div>
+    </div>
+
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="headingFive">
+            <button class="accordion-button accordion-button--checkout" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                <span class="register-heading--big">05. PAYMENT METHOD</span>
+            </button>
+        </h2>
+        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingThree"
+             data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+                PAYMENT METHOD
+            </div>
+
+        </div>
+    </div>
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="headingSix">
+            <button class="accordion-button accordion-button--checkout" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                <span class="register-heading--big">06. ORDER REVIEW</span>
+            </button>
+        </h2>
+        <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingThree"
+             data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+                ORDER REVIEW
+            </div>
+
+        </div>
+    </div>
 
 
-<div class="single-heading-center">
-    <h3 class="single-heading">you may like also</h3>
-</div>
-
-
-<div class="container single-card-box">
-    <div class="single-card">
-        <div class="single-card-img">
-            <img class="single-card-img-content" src="img/single-card-1.png" alt="card-1">
-        </div>
-        <div class="single-card-title">BLAZE LEGGINGS</div>
-        <div class="single-card-price">52.00$</div>
-    </div>
-    <div class="single-card">
-        <div class="single-card-img">
-            <img class="single-card-img-content" src="img/single-card-2.png" alt="card-2">
-        </div>
-        <div class="single-card-title">ALEXA SWEATER</div>
-        <div class="single-card-price">52.00$</div>
-    </div>
-    <div class="single-card">
-        <div class="single-card-img">
-            <img class="single-card-img-content" src="img/single-card-3.png" alt="card-3">
-        </div>
-        <div class="single-card-title">AGNES TOP</div>
-        <div class="single-card-price">52.00$</div>
-    </div>
-    <div class="single-card">
-        <div class="single-card-img">
-            <img  class="single-card-img-content"  src="img/single-card-4.jpg" alt="card-4">
-        </div>
-        <div class="single-card-title">SYLVA SWEATER</div>
-        <div class="single-card-price">52.00$</div>
-    </div>
 </div>
 
 <div class="feedback">
@@ -428,6 +463,8 @@
         </nav>
     </div>
 </footer>
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
 </body>
 </html>
