@@ -196,6 +196,11 @@ a {
   height: 29px;
 }
 
+.cart:hover {
+  width: 35px;
+  height: 32px;
+}
+
 .button__my-account {
   background-color: #f16d7f;
   margin-left: 26px;
