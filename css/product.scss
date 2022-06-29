@@ -198,3 +198,10 @@
 .crown__margin-product {
   margin-bottom: 29px;
 }
+
+@media screen and (max-width: 863px) {
+  .product-left, .product-right-top {
+    display: none;
+  }
+
+}

@@ -42,7 +42,6 @@ a {
 }
 
 .button:hover {
-  border: 1px solid darkviolet;
   color: darkviolet;
   background-color: #ccc;
 }
@@ -53,6 +52,7 @@ a {
 }
 
 .header {
+  box-sizing: border-box;
   padding-top: 25px;
   height: 100px;
   background-color: #ffffff;
@@ -235,6 +235,7 @@ a {
   display: flex;
   justify-content: center;
   position: relative;
+  margin: 0;
 }
 
 .menu-list {
